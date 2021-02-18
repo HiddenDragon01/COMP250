@@ -1,0 +1,82 @@
+This comment file is divided in several section.
+
+SUBMISSIONS_BREAKDOWN-------------------------------------
+This section provides the recorded grade for each submission but without feedbacks
+Be aware that the grade provided here include late penalties.
+
+---------------------------------------------------------------
+Submission[0] received at time: 2019-10-08 18:16:00
+Submission[0] Actual Grade: 90.0
+
+---------------------------------------------------------------
+Submission[1] received at time: 2019-10-08 11:53:00
+Submission[1] Actual Grade: 90.0
+
+---------------------------------------------------------------
+Best Scoring Submission was Submission[0], received at time 2019-10-08 18:16:00 with grade of 90.0.
+
+---------------------------------------------------------------
+
+BEST_SUBMISSION_COMPILE_SECTION-------------------------------------
+This section provides any errors you may have before running the grader.
+No error to report in this section
+-----------------------------------------------------------------
+
+BEST_SUBMISSION_RUNTIME_SECTION--------------------------------------------------
+This section provides the feedback for your best submission. 
+java.lang.Exception: Failed test index 5. ListOfUnit.remove() should remove a unit in the list.Index 9 out of bounds for length 9
+	at Grader.testListOfUnits_4(Grader.java:850)
+	at Grader.main(Grader.java:1226)
+Score:5.0/5.0. Test index 1 - Constructor initailization test for Settler, Worker, Archer, Warrior.
+Score:3.0/3.0. Test index 2 - Test size() and get() making sure no null elements are returned.
+Score:2.0/2.0. Test index 3 - Test Basic behavior for getArmy().
+Score:3.0/3.0. Test index 4 - Test add() with resizing of array.
+Score:2.0/2.0. Test index 5 - Test removing a unit that is not in the list.
+Score:0.0/2.0. Test index 6 - Test removing a unit that is in the list.
+Score:3.0/3.0. Test index 7 - Test getUnits().
+Score:3.0/3.0. Test index 8 - Test that indexOf() returns the first instance of the given Unit.
+Score:2.0/2.0. Test index 9 - Test constructor for ListOfUnits.
+Score:2.0/2.0. Test index 10 - Test indexOf() when the Unit is not present.
+Score:3.0/3.0. Test index 11 - Test ListOfUnits methods all together.
+Score:3.25/3.25. Test index 12 - Remove unit from empty tile.
+Score:3.25/3.25. Test index 13 - Remove unit from non-empty tile not containing the unit.
+Score:3.25/3.25. Test index 14 - Test Tile.selectWeakEnemy() check first element returned.
+Score:3.25/3.25. Test index 15 - Remove one unit from a tile.
+Score:3.0/3.0. Test index 16 - Test Tile.selectWeakEnemy() check faction string..
+Score:2.0/2.0. Test index 17 - Test Tile.getDistance().
+Score:2.0/2.0. Test index 18 - Test Tile constructor.
+Score:2.0/2.0. Test index 19 - Move units by 1 tile.
+Score:2.0/2.0. Test index 20 - Move units by 2 tile.
+Score:2.0/2.0. Test index 21 - Move units to the same tile.
+Score:2.0/2.0. Test index 22 - Random multi-step unit movement.
+Score:2.0/2.0. Test index 23 - Move units to a tile containing enemy faction without MIlitaryUnits.
+Score:2.0/2.0. Test index 24 - Move Archer and Warrior to a tile with enemy MilitaryUnits.
+Score:2.0/2.0. Test index 25 - Move Settler and Worker to a tile with enemy MilitaryUnits.
+Score:2.0/2.0. Test index 26 - Construct Warrior and Archer on a Tile with enemy MilitaryUnits.
+Score:2.0/2.0. Test index 27 - Construct Settler and Worker on a Tile with enemy MilitaryUnits.
+Score:2.0/2.0. Test index 28 - Move units to a tile containing units from same faction.
+Score:5.0/5.0. Test index 29 - Test takeAction for Settler.
+Score:5.0/5.0. Test index 30 - Test takeAction for Worker.
+Score:7.0/15.0. Test index 31 - Test takeAction for Military Units.
+Score:1.0/1.0. Test index 32 - test equals() for situations where checking reference equality is good enough.
+Score:2.0/2.0. Test index 33 - test equals() for situations where faction comparison is required.
+Score:2.0/2.0. Test index 34 - test equals() for arrows and jobs.
+
+Total Score: 90.0
+
+
+
+---------------------------------------------------------------
+
+FOOTNOTE-------------------------------------------------------
+If you have questions for failed test cases or report potential bugs in the grader, please contact rajveer.gandhi@mail.mcgill.ca, sayantan.datta@mail.mcgill.ca.
+If you received a zero for timeout, please contact rajveer.gandhi@mail.mcgill.ca, sayantan.datta@mail.mcgill.ca. 
+If you have submission format problems, late penalty issues, or general autograding issues, please contact xiru.zhu@mail.mcgill.ca
+Questions about the course material or this assignment should be addressed to TAs during office hours.
+Any other request should be addressed to the lecturers.
+You may resubmit assignments if you are not satisfied with your grade.
+However, a 10 penalty applies per day late.
+The grader will run only once per day once the assignment deadline pass.
+Do not email about running the grader to see your resubmission grades. They will be ignored. 
+Assignments were taken from my courses at 13:00, 10/09/2019
+---------------------------------------------------------------

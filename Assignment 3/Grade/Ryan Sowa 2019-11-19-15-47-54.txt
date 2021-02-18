@@ -1,0 +1,348 @@
+This comment file is divided in several section.
+
+SUBMISSIONS_BREAKDOWN-------------------------------------
+This section provides the recorded grade for each submission but without feedbacks
+Be aware that the grade provided here include late penalties.
+
+---------------------------------------------------------------
+Submission[0] received at time: 2019-11-15 18:42:00
+Submission[0] Actual Grade: 99.0
+
+---------------------------------------------------------------
+Submission[1] received at time: 2019-11-15 18:42:00
+Submission[1] Actual Grade: 99.0
+
+---------------------------------------------------------------
+Best Scoring Submission was Submission[0], received at time 2019-11-15 18:42:00 with grade of 99.0.
+
+---------------------------------------------------------------
+
+BEST_SUBMISSION_COMPILE_SECTION-------------------------------------
+This section provides any errors you may have before running the grader.
+No error to report in this section
+-----------------------------------------------------------------
+
+BEST_SUBMISSION_RUNTIME_SECTION--------------------------------------------------
+This section provides the feedback for your best submission. 
+README:
+The grader has a set of n datalists which it uses to create the trees. Once the KDTree constructor is
+successful in constructing the tree, only then the grader proceeds with tests like the validity of the tree
+constructed, the performance of the tree in the nearest neighbor search and the iterator corresponding 
+to the tree. In the event that the KDTree constructor fails (meets with an error like but not limited to 
+a StackOver or a NullPointerexception) to create a tree for a given datalist, the tests corresponding 
+to that particular datalist will not be conducted and you will not receive any score those tests.
+ 
+*********************************
+*         Starting tests        *
+*********************************
+Constructing tree using datalist 0. . .Success
+
+Constructing tree using datalist 1. . .Success
+
+Constructing tree using datalist 2. . .Success
+
+Constructing tree using datalist 3. . .Success
+
+
+
+**************************************
+         Testing Tree constructor       
+**************************************
+
+
+
+Starting constructor test on tree from file : DatumArrayList1(2D_61IS_NoDuplicates)_8943Points.ser
+Constructor created a proper tree. Test passed!
+Points obtained :10
+
+Starting constructor test on tree from file : DatumArrayList2(3D_3IS_Duplicates)_12000Points.ser
+Constructor created a proper tree. Test passed!
+Points obtained :10
+
+Starting constructor test on tree from file : DatumArrayList3(4D_5IS_Duplicates)_100000Points.ser
+Constructor created a proper tree. Test passed!
+Points obtained :10
+
+Starting constructor test on tree from file : DatumArrayList4(5D_81IS_Duplicates)_100000Points.ser
+Constructor created a proper tree. Test passed!
+Points obtained :20
+Total points obtained in this question :50
+
+**************************************
+         Nearest Point Tests          
+**************************************
+
+***** Nearest Point Test 0 *****
+Query point: [-21,123]
+Computing nearest point... Success
+Nearest point (returned): [-21,122]
+Squared distance (returned): 1
+Squared distance (expected): 1
+Correct
+
+Query point: [-126,74]
+Computing nearest point... Success
+Nearest point (returned): [-126,74]
+Squared distance (returned): 0
+Squared distance (expected): 0
+Correct
+
+Query point: [-30,119]
+Computing nearest point... Success
+Nearest point (returned): [-30,119]
+Squared distance (returned): 0
+Squared distance (expected): 0
+Correct
+
+Query point: [-108,41]
+Computing nearest point... Success
+Nearest point (returned): [-108,41]
+Squared distance (returned): 0
+Squared distance (expected): 0
+Correct
+
+Query point: [-15,10]
+Computing nearest point... Success
+Nearest point (returned): [-15,10]
+Squared distance (returned): 0
+Squared distance (expected): 0
+Correct
+
+Points Obtained: 5
+
+***** Nearest Point Test 1 *****
+Query point: [-16,86,-4]
+Computing nearest point... Success
+Nearest point (returned): [-16,86,-5]
+Squared distance (returned): 1
+Squared distance (expected): 1
+Correct
+
+Query point: [-92,61,3]
+Computing nearest point... Success
+Nearest point (returned): [-91,62,2]
+Squared distance (returned): 3
+Squared distance (expected): 3
+Correct
+
+Query point: [-41,63,-1]
+Computing nearest point... Success
+Nearest point (returned): [-42,63,0]
+Squared distance (returned): 2
+Squared distance (expected): 2
+Correct
+
+Query point: [-126,134,-7]
+Computing nearest point... Success
+Nearest point (returned): [-126,133,-8]
+Squared distance (returned): 2
+Squared distance (expected): 2
+Correct
+
+Query point: [-2,60,-5]
+Computing nearest point... Success
+Nearest point (returned): [-1,60,-5]
+Squared distance (returned): 1
+Squared distance (expected): 1
+Correct
+
+Points Obtained: 5
+
+***** Nearest Point Test 2 *****
+Query point: [-191,36,2,21]
+Computing nearest point... Success
+Nearest point (returned): [-191,36,2,21]
+Squared distance (returned): 0
+Squared distance (expected): 0
+Correct
+
+Query point: [-221,81,3,14]
+Computing nearest point... Success
+Nearest point (returned): [-220,80,3,14]
+Squared distance (returned): 2
+Squared distance (expected): 2
+Correct
+
+Query point: [-274,132,5,20]
+Computing nearest point... Success
+Nearest point (returned): [-275,132,5,20]
+Squared distance (returned): 1
+Squared distance (expected): 1
+Correct
+
+Query point: [-224,54,0,23]
+Computing nearest point... Success
+Nearest point (returned): [-225,54,-1,22]
+Squared distance (returned): 3
+Squared distance (expected): 3
+Correct
+
+Query point: [-233,117,5,19]
+Computing nearest point... Success
+Nearest point (returned): [-233,117,4,19]
+Squared distance (returned): 1
+Squared distance (expected): 1
+Correct
+
+Query point: [-265,129,-2,18]
+Computing nearest point... Success
+Nearest point (returned): [-265,129,-2,18]
+Squared distance (returned): 0
+Squared distance (expected): 0
+Correct
+
+Query point: [-285,107,6,19]
+Computing nearest point... Success
+Nearest point (returned): [-285,107,5,18]
+Squared distance (returned): 2
+Squared distance (expected): 2
+Correct
+
+Query point: [-236,78,1,16]
+Computing nearest point... Success
+Nearest point (returned): [-237,79,1,16]
+Squared distance (returned): 2
+Squared distance (expected): 2
+Correct
+
+Query point: [-297,42,7,14]
+Computing nearest point... Success
+Nearest point (returned): [-296,43,6,15]
+Squared distance (returned): 4
+Squared distance (expected): 4
+Correct
+
+Query point: [-264,99,5,19]
+Computing nearest point... Success
+Nearest point (returned): [-264,98,5,19]
+Squared distance (returned): 1
+Squared distance (expected): 1
+Correct
+
+Points Obtained: 10
+
+***** Nearest Point Test 3 *****
+Query point: [6,2,-2,7,0]
+Computing nearest point... Success
+Nearest point (returned): [6,2,-2,7,-1]
+Squared distance (returned): 1
+Squared distance (expected): 1
+Correct
+
+Query point: [5,1,0,6,-2]
+Computing nearest point... Success
+Nearest point (returned): [5,1,0,6,-2]
+Squared distance (returned): 0
+Squared distance (expected): 0
+Correct
+
+Query point: [6,4,0,6,-1]
+Computing nearest point... Success
+Nearest point (returned): [6,4,0,6,-1]
+Squared distance (returned): 0
+Squared distance (expected): 0
+Correct
+
+Query point: [3,-5,0,7,-1]
+Computing nearest point... Success
+Nearest point (returned): [3,-5,0,7,0]
+Squared distance (returned): 1
+Squared distance (expected): 1
+Correct
+
+Query point: [2,3,3,-4,1]
+Computing nearest point... Success
+Nearest point (returned): [2,3,3,-3,1]
+Squared distance (returned): 1
+Squared distance (expected): 1
+Correct
+
+Query point: [8,-6,-4,2,0]
+Computing nearest point... Success
+Nearest point (returned): [8,-6,-4,2,-1]
+Squared distance (returned): 1
+Squared distance (expected): 1
+Correct
+
+Query point: [1,-3,0,-6,-2]
+Computing nearest point... Success
+Nearest point (returned): [1,-3,0,-6,-2]
+Squared distance (returned): 0
+Squared distance (expected): 0
+Correct
+
+Query point: [-1,5,-4,3,1]
+Computing nearest point... Success
+Nearest point (returned): [-1,5,-4,3,1]
+Squared distance (returned): 0
+Squared distance (expected): 0
+Correct
+
+Query point: [-10,0,3,0,1]
+Computing nearest point... Success
+Nearest point (returned): [-10,-1,3,0,1]
+Squared distance (returned): 1
+Squared distance (expected): 1
+Failure - Not sufficiently faster than a brute force search (Speedup: 11.985421, Required Speedup: 12.041199826559248)
+
+Query point: [8,2,-2,-8,-2]
+Computing nearest point... Success
+Nearest point (returned): [8,2,-2,-7,-2]
+Squared distance (returned): 1
+Squared distance (expected): 1
+Correct
+
+Points Obtained: 9
+
+Total Points Obtained in this question: 79
+
+**************************************
+          Testing tree iterator       
+**************************************
+
+Starting iterator test on tree from file : DatumArrayList1(2D_61IS_NoDuplicates)_8943Points.ser
+Number of nodes in tree is 17885
+Number of leaves in tree is 8943
+Number of leaves the iterator visited :8943
+Both the number of nodes visited and the order in which they were visited are correct. 
+Test passed!! Points obtained : 5
+
+Starting iterator test on tree from file : DatumArrayList2(3D_3IS_Duplicates)_12000Points.ser
+Number of nodes in tree is 23673
+Number of leaves in tree is 11837
+Number of leaves the iterator visited :11837
+Both the number of nodes visited and the order in which they were visited are correct. 
+Test passed!! Points obtained : 5
+
+Starting iterator test on tree from file : DatumArrayList3(4D_5IS_Duplicates)_100000Points.ser
+Number of nodes in tree is 194329
+Number of leaves in tree is 97165
+Number of leaves the iterator visited :97165
+Both the number of nodes visited and the order in which they were visited are correct. 
+Test passed!! Points obtained : 5
+
+Starting iterator test on tree from file : DatumArrayList4(5D_81IS_Duplicates)_100000Points.ser
+Number of nodes in tree is 137019
+Number of leaves in tree is 68510
+Number of leaves the iterator visited :68510
+Both the number of nodes visited and the order in which they were visited are correct. 
+Test passed!! Points obtained : 5
+
+
+Total Points Obtained in this question: 20
+
+Total Score: 99
+---------------------------------------------------------------
+
+FOOTNOTE-------------------------------------------------------
+If you have questions for failed test cases or report potential bugs in the grader, please contact abhisek.konar@mail.mcgill.ca, brennan.nichyporuk@gmail.com
+If you received a zero for timeout, please contact xiru.zhu@mail.mcgill.ca. 
+If you have submission format problems, late penalty issues, or general autograding issues, please contact xiru.zhu@mail.mcgill.ca
+Questions about the course material or this assignment should be addressed to TAs during office hours.
+Any other request should be addressed to the lecturers.
+You may resubmit assignments if you are not satisfied with your grade.
+However, a 10 penalty applies per day late.
+The grader will run only once per day once the assignment deadline pass.
+Do not email about running the grader to see your resubmission grades. They will be ignored. 
+Assignments were graded at timestamp of the textfile attached. 
+---------------------------------------------------------------

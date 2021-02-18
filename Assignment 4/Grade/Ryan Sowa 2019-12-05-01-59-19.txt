@@ -1,0 +1,91 @@
+READ ME!-------------------------------------------------------
+If you have questions for failed test cases or report potential bugs in the grader, please contact Sayantan at sayantan.datta@mail.mcgill.ca
+If you received a zero for timeout, please contact xiru.zhu@mail.mcgill.ca. 
+If you have submission format problems, late penalty issues, or general autograding issues, please contact xiru.zhu@mail.mcgill.ca
+Questions about the course material or this assignment should be addressed to TAs during office hours.
+Any other request should be addressed to the lecturers.
+You may resubmit assignments if you are not satisfied with your grade.
+However, a 10 penalty applies per day late.
+The grader will run only once per day once the assignment deadline pass.
+Do not email about running the grader to see your resubmission grades. They will be ignored. 
+Assignments were graded at timestamp of the textfile attached. 
+---------------------------------------------------------------
+This comment file is divided in several section.
+
+SUBMISSIONS_BREAKDOWN-------------------------------------
+This section provides the recorded grade for each submission but without feedbacks
+Be aware that the grade provided here include late penalties.
+
+---------------------------------------------------------------
+Submission[0] received at time: 2019-11-27 13:07:00
+Submission[0] Actual Grade: 97.0
+
+---------------------------------------------------------------
+Submission[1] received at time: 2019-11-27 13:06:00
+Submission[1] Actual Grade: 86.0
+
+---------------------------------------------------------------
+Best Scoring Submission was Submission[0], received at time 2019-11-27 13:07:00 with grade of 97.0.
+
+---------------------------------------------------------------
+
+BEST_SUBMISSION_COMPILE_SECTION-------------------------------------
+This section provides any errors you may have before running the grader.
+No error to report in this section
+-----------------------------------------------------------------
+
+BEST_SUBMISSION_RUNTIME_SECTION--------------------------------------------------
+This section provides the feedback for your best submission. 
+[0]: Test the number of vertices added during crawling.
+Score: 5/5
+
+[1]: Test if vertices are marked visited during crawling.
+Score: 5/5
+
+[2]: Test the number of edges added during crawling.
+Score: 5/5
+
+[3]: 2nd Test for number of edges added during crawling.
+Score: 5/5
+
+[4]: 2nd Test for number of vertices added during crawling.
+Score: 5/5
+
+[5]: 2nd Test for if vertices are marked visited during crawling.
+Score: 5/5
+
+[6]: Test for contents of wordIndex after crawling.
+Score: 5/5
+
+[7]: Test whether AssignPageRanks produces plausible output. Passing this test does not gurantee your output is correct.
+Score: 2/2
+
+[8]: Test whether a single iteration of linear solver produces expected output - Easy.
+Score: 8/8
+
+[9]: Test whether final AssignPageRanks output is correct.
+Score: 15/15
+
+[10]: Test whether a single iteration of linear solver produces expected output - Difficult.
+Score: 10/10
+
+[11]: Test whether the search result are correct - Easy.
+Score: 5/5
+
+[12]: Test whether the search result are correct - Difficult.
+Score: 5/5
+
+[13]: Test sorting method correctness and complexity - Easy.
+Testing 10000 elements, Expected speed up - 25.0, achieved speed up 25.88343
+Testing 100000 elements, Expected speed up - 1000.0, achieved speed up 971.939
+Score: 10/10
+
+[14]: Test sorting method correctness and complexity - Difficult.
+Expected duration for fastSort is 654428000ns, achieved duration is 1063685557ns.
+Score: 7/10
+
+Results: 97.0/100
+Total Score: 97.0
+
+---------------------------------------------------------------
+
